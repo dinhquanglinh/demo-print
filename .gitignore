@@ -1,0 +1,22 @@
+# Please do not use this ignore file to define platform specific files.
+#
+# For these purposes create a global .gitignore file, which is a list of rules
+# for ignoring files in every Git repository on your computer.
+#
+# https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+
+package-lock.json
+node_modules/
+.env
+boxfile.yml
+docker/server/logs/*
+notes.txt
+logs/
+config_local.php
+\.DS_Store
+var/cache/*
+yarn.lock
+avatars/
+.env.dev
+.env.prod
+.idea/

@@ -1,0 +1,107 @@
+:root {
+    --colorMain: #007831;
+    --colorMain2: #003d18;
+    --colorBgrColor: #fff;
+    --colorActive: #fdd116;
+    --colorActiveText: #000;
+    --colorButtonActive: #000;
+    --colorButton: #fff;
+    --colorError: #f11b34;
+    --colorText: #000000;
+    --colorText2: #fff;
+    --colorText3: #003d18;
+    --colorBorder: #dedede;
+    --colorBorderBall: #003d18;
+    --bgrColorBox: #f5f5f5;
+    --bgrColorBox2: #fff;
+    --fontSize: 14px;
+    --bgrMainBody: #ececec;
+    --columns-number: 26;
+    --templateColumnsEvent: 5;
+    --heigthCustom: 26px;
+    --paddingBodyNumber: 10px;
+    --betslipBgrHeader: #007831;
+    --betslipBgrItem: #fff;
+    --betslipBgrFooter: #007831;
+    --padding-rl-beslip: 8px;
+    --padding-rl-item-beslip: 8px;
+    --colorTextHead: #003d18;
+    --colorTextActive: #002a11;
+    --bgrColorBox: #f5f5f5;
+    --bgrColorBox2: #fff;
+    --bgrColorBoxActive: #e5f1ea;
+    --fontSize: 14px;
+    --bgrMainBody: #ececec;
+    --borderRadius: 2px;
+    --borderColorButon: #ccc;
+    --bgrMainHead: #dedede;
+    --mLrContent: 6px;
+    --radioColor: #00b0ff;
+    --borderTable: #000;
+    --whballs: 20px;
+}
+
+//MQ SASS
+$mq-responsive: true;
+$mq-breakpoints: (
+    smallMobile-320: 321px,
+    smallMobile-340: 340px,
+    smallMobile-350: 350px,
+    smallMobile-370: 370px,
+    smallMobile-400: 400px,
+    smallMobile-420: 420px,
+    smallMobile-479: 479px,
+    smallMobile-480: 481px,
+    smallMobile-600: 600px,
+    smallMobile-768: 768px,
+    smallMobile-800: 800px,
+    mobile: 982px,
+    mobile-2: 992px,
+    tablet-2: 1100px,
+    tablet: 1200px,
+    desktop: 1426px,
+    wide: 1301px,
+);
+
+$mq-static-breakpoint: desktop;
+
+// Screen size
+$size-container: 1200px;
+$size-semi-container: 1024px;
+$size-large: 992px;
+$size-medium: 768px;
+$size-extra-small: 600px;
+$size-boostrap: 576px;
+$size-small: 480px;
+$size-light: 400px;
+$size-extra-light: 374px;
+$size-thin: 340px;
+$size-height: 460px;
+
+@media (max-width: 1366px) {
+    :root {
+        --fontSize: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --betslipBgrItem: #006d2a;
+        --padding-rl-item-beslip: 13px;
+        --columns-number: 15;
+        --paddingBodyNumber: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --columns-number: 10;
+        --templateColumnsEvent: 2;
+    }
+}
+
+@media (max-width: 375px) {
+    :root {
+        --columns-number: 9;
+    }
+}

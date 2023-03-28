@@ -1,0 +1,16 @@
+.notications {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    .v-alert {
+        padding: 10px 30px;
+        margin-bottom: 0;
+        font-size: calc(var(--fontSize));
+        text-transform: capitalize;
+    }
+
+    .v-btn--icon.v-size--small .v-icon,
+    .v-alert__icon.v-icon {
+        font-size: calc(var(--fontSize) + 10px);
+    }
+}

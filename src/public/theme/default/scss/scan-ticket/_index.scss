@@ -1,0 +1,55 @@
+.scan-ticket {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .scan-ticket__title {
+        font-size: calc(var(--fontSize) + 16px);
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    .scan-ticket__input {
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--borderColorButon);
+        border-radius: 4px;
+        width: 100%;
+        input {
+            padding: 8px;
+            flex: 1;
+            &:focus {
+                outline: none;
+                box-shadow: 0;
+            }
+        }
+    }
+
+    .scan-ticket__input-left-addon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--fontSize);
+        font-weight: bold;
+        color: #555;
+        border-right: 1px solid var(--borderColorButon);
+        padding: 0 8px;
+        margin-right: 8px;
+    }
+
+    .scan-ticket__box-button {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+        row-gap: 5px;
+        padding-top: 10px;
+    }
+
+    .scan-ticket__text-or {
+        font-size: var(--fontSize);
+        color: var(--colorText3);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
